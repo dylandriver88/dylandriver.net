@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dylan Driver: Web Designer/Developer | Performance & Accessibility</title>
+    <meta name="description" content="Dylan Driver: Front-end web developer and web designer. Driving your business to the top with performance and accessibility-first websites.">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/vendor/elegant_font/style.css" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon-2023_mobile.png">
+    <link rel="icon" type="image/png" href="/img/favicon-2023.png" sizes="32x32">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="/js/form.js"></script>
+</head>
+
+<body>
+    <header id="head" class="head no-padding" aria-label="Header">
+        <div class="content-wrap">
+            <div class="row justify-content-center">
+                <img aria-label="Logo" id="logo-head" src="/img/ddriver-logo-white.webp" alt="Dylan Driver | Web Designer/Developer">
+            </div>
+            <div class="row justify-content-center">
+                <ul id="slides" onmouseover="pauseSlideshow(this)" onmouseout="playSlideshow(this)">
+                    <li class="slide showing">
+                        <h1>
+                            Need A Web Developer?
+                        </h1>
+                    </li>
+                    <li class="slide">
+                        <h1>
+                            Want a Fast Website?
+                        </h1>
+                    </li>
+                    <li class="slide">
+                        <h1>
+                            Need A Web Designer?
+                        </h1>
+                    </li>
+                    <li class="slide">
+                        <h1>
+                            Want to Wow Your Users?
+                        </h1>
+                    </li>
+                </ul>
+            </div>
+            <div class="row justify-content-center">
+                <h2>
+                    You've Come To The Right Place.
+                </h2>
+            </div>
+        </div>
+        <button aria-label="Pause/play animation" class="controls" id="pause"><i class="icon_pause"></i></button>
+        <div class="hint">
+            <button aria-label="Scroll To Menu" class="arrow" id="arrow">
+                <p>See Why</p><img alt="" src="/img/background/arrow-3d.webp">
+            </button>
+        </div>
+    </header>
+    <div id="menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white" id="menu-content" role="navigation" aria-label="Main">
+            <div class="container">
+                <a class="navbar-brand" href="#" aria-label="Home link">
+                    <img aria-label="Logo Nav" alt="Dylan Driver" src="/img/ddriver-logo-v2.webp">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="mobileNav">
+                    <ul class="navbar-nav mb-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-label="Skills link" aria-current="page" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-label="Portfolio link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-label="About Me link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-label="Contact link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section aria-label="Vision" id="vision" class="alt vision">
+        <div class="container">
+            <div class="row sec-header justify-content-center">
+                <div class="col-12 col-sm-6">
+                    <i class="icon_lightbulb_alt"></i>
+                    <h2>
+                        My Vision</h2>
+                    <div class="sep"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-11 col-sm-8">
+                    <h3>Creating Modern And Effective Websites That Drive Successful Businesses</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills" aria-label="Skills">
+        <div class="container">
+            <div class="row sec-header justify-content-center">
+                <div class="col-12 col-sm-6">
+                    <i class="icon_documents_alt"></i>
+                    <h2>
+                        My Skills</h2>
+                    <div class="sep"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-11 col-sm-5 item">
+                    <div class="">
+                        <i class="icon_desktop"></i>
+                        <h4>Web Development</h4>
+                    </div>
+                    <p>My expertise is in front-end development, with an emphasis on site performance and accessibility. Leveraging tools like HTML5, CSS3, Javascript, and PHP, I bring designs to life and up to par with today's web standards.<br /><br />
+                        Use a CMS? Perfect! I'm experienced with both Wordpress and Drupal, as well as Design Systems.<br /><br />
+                        I'm also well-versed in email development, and know all the tips and tricks that make your emails work everywhere (<em>looking at you, Outlook</em>).</p>
+                </div>
+                <div class="col-11 col-sm-5 item">
+                    <div class="">
+                        <i class="icon_globe-2"></i>
+                        <h4>Web Design</h4>
+                    </div>
+                    <p>I design beautiful, modern, functional, and responsive websites in order to keep up with today's fast-paced world. Using tools like Photoshop, Illustrator, Figma, and Adobe XD, I bring ideas from theory to reality.</br /><br />
+                        All of my sites are designed with both accessibility and user experience in mind, based on W3C and WCAG standards.</br /><br />
+                        Need banner ads, graphics, modal windows, or photos re-touched? I can do that, too!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio alt" aria-label="Portfolio">
+        <div class="container">
+            <div class="row sec-header justify-content-center">
+                <div class="col-12 col-sm-6">
+                    <i class="icon_book_alt"></i>
+                    <h2>My Work</h2>
+                    <div class="sep"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-5 item">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="work-modal-trigger" data-bs-toggle="modal" data-bs-target="#negativeKittyModal">
+                        <img aria-label="Negative Kitty" alt="Negative Kitty" src="/img/portfolio/portfolio-negative-kitty-2023.webp">
+                        <h3>Negative Kitty</h3>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="negativeKittyModal" tabindex="-1" aria-labelledby="Negative Kitty details" aria-hidden="true">
+                        <div class="modal-dialog modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Negative Kitty</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img aria-label="Negative Kitty" alt="Negative Kitty" src="/img/portfolio/portfolio-negative-kitty-2023.webp">
+                                                <p class="work-modal-description">A New York based company specializing in animation production, video production, commercial production, music video production, and more.
+                                                </p>
+                                                <a class="work-modal-link" href="https://negativekitty.com" target="_blank" rel="noopener">View site ></a>
+                                                <div class="work-skills">
+                                                    <h4>Skills used:</h4>
+                                                    <span class="badge bg-primary">Web Development</span>
+                                                    <span class="badge bg-primary">HTML5</span>
+                                                    <span class="badge bg-primary">CSS3</span>
+                                                    <span class="badge bg-primary">JavaScript</span>
+                                                    <span class="badge bg-primary">PHP</span>
+                                                    <span class="badge bg-primary">WordPress</span>
+                                                    <span class="badge bg-primary">SEO</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-5 item">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="work-modal-trigger" data-bs-toggle="modal" data-bs-target="#bretonridgeModal">
+                        <img aria-label="Bretonridge Builders" alt="Bretonridge Builders" src="/img/portfolio/portfolio-bretonridge-2023.webp">
+                        <h3>Bretonridge Builders</h3>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="bretonridgeModal" tabindex="-1" aria-labelledby="Bretonridge Builders details" aria-hidden="true">
+                        <div class="modal-dialog modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Bretonridge Builders, LLC.</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img aria-label="Bretonridge Builders" alt="Bretonridge Builders" src="/img/portfolio/portfolio-bretonridge-2023.webp">
+                                                <p class="work-modal-description">Construction company offering state-of-the-art, custom, general contracting services throughout Connecticut.
+                                                </p>
+                                                <a class="work-modal-link" href="https://www.bretonridgebuilders.com" target="_blank" rel="noopener">View site ></a>
+                                                <div class="work-skills">
+                                                    <h4>Skills used:</h4>
+                                                    <span class="badge bg-primary">Web Design</span>
+                                                    <span class="badge bg-primary">Web Development</span>
+                                                    <span class="badge bg-primary">HTML5</span>
+                                                    <span class="badge bg-primary">CSS3</span>
+                                                    <span class="badge bg-primary">PHP</span>
+                                                    <span class="badge bg-primary">WordPress</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-5 item">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="work-modal-trigger" data-bs-toggle="modal" data-bs-target="#nkchModal">
+                        <img aria-label="North Kansas City Hospital" alt="North Kansas City Hospital" src="/img/portfolio/portfolio-nkch-2023.webp">
+                        <h3>North Kansas City Hospital</h3>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="nkchModal" tabindex="-1" aria-labelledby="North Kansas City Hospital details" aria-hidden="true">
+                        <div class="modal-dialog modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">North Kansas City Hospital</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img aria-label="North Kansas City Hospital" alt="North Kansas City Hospital" src="/img/portfolio/portfolio-nkch-2023.webp">
+                                                <p class="work-modal-description">Kansas City based acute care facility with 451 licensed beds and 550 physicians representing 49 medical specialties.
+                                                </p>
+                                                <a class="work-modal-link" href="https://www.nkchjobs.org/" target="_blank" rel="noopener">View site ></a>
+                                                <div class="work-skills">
+                                                    <h4>Skills used:</h4>
+                                                    <span class="badge bg-primary">Web Design</span>
+                                                    <span class="badge bg-primary">Web Development</span>
+                                                    <span class="badge bg-primary">HTML5</span>
+                                                    <span class="badge bg-primary">CSS3</span>
+                                                    <span class="badge bg-primary">Bootstrap</span>
+                                                    <span class="badge bg-primary">JavaScript</span>
+                                                    <span class="badge bg-primary">Liquid Script</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-5 item">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="work-modal-trigger" data-bs-toggle="modal" data-bs-target="#henryModal">
+                        <img aria-label="Henry Repeating Arms" alt="Henry Repeating Arms" src="/img/portfolio/portfolio-henry-2023.webp">
+                        <h3>Henry Repeating Arms</h3>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="henryModal" tabindex="-1" aria-labelledby="Henry Repeating Arms details" aria-hidden="true">
+                        <div class="modal-dialog modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Henry Repeating Arms</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img aria-label="Henry Repeating Arms" alt="Henry Repeating Arms" src="/img/portfolio/portfolio-henry-2023.webp">
+                                                <p class="work-modal-description">Henry Repeating Arms is the leading lever-action firearms manufacturer in the USA.
+                                                </p>
+                                                <a class="work-modal-link" href="https://www.henryusa.com" target="_blank" rel="noopener">View site ></a>
+                                                <div class="work-skills">
+                                                    <h4>Skills used:</h4>
+                                                    <span class="badge bg-primary">Web Design</span>
+                                                    <span class="badge bg-primary">Graphic Design</span>
+                                                    <span class="badge bg-primary">HTML5</span>
+                                                    <span class="badge bg-primary">CSS3</span>
+                                                    <span class="badge bg-primary">Photoshop</span>
+                                                    <span class="badge bg-primary">WordPress</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about" aria-label="About">
+        <div class="container">
+            <div class="row sec-header justify-content-center">
+                <div class="col-11 col-md-6">
+                    <i class="icon_group"></i>
+                    <h2>
+                        Who Is Dylan Driver?</h2>
+                    <div class="sep"></div>
+                </div>
+            </div>
+            <div class="row about-wrapper justify-content-center">
+                <div class="col-11 col-sm-3 item">
+                    <img aria-label="Dylan Driver" alt="Dylan Driver" src="/img/about/me-2020-500x500.webp" />
+                    <div class="clearfix">
+                        <div class="info">
+                            <div class="row">
+                                <ul class="pos">
+                                    <li>
+                                        <div>&#10148;</div>
+                                        <div class="about-me-item">Bostonian</div>
+                                    </li>
+                                    <li>
+                                        <div>&#10148;</div>
+                                        <div class="about-me-item">Health & Fitness Nut</div>
+                                    </li>
+                                    <li>
+                                        <div>&#10148;</div>
+                                        <div class="about-me-item">Musician</div>
+                                    </li>
+                                    <li>
+                                        <div>&#10148;</div>
+                                        <div class="about-me-item">Creator Of This Awesome Site</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-8 item">
+                    <p>Aside from my web chops, I am a passionate, team-oriented, and hard-working individual. Critical thinking, organization, and problem solving are my greatest strengths. I enjoy collaborating with my peers in order to create the most effective and compelling designs, but I can also hold my own when it comes to working as a lone wolf.<br /><br />
+                        In my spare time I enjoy cooking, keeping active, golf, video games, and sampling different craft beers. I graduated from Quinnipiac University in 2014 with a B.A. in Interactive Digital Design. Since then, I've worked in multiple roles across multiple industries that brought me from Graphic Designer to Web and Email Designer to Web Developer. I've spent the last decade honing my craft to become the best developer that I can be.<span id="dots">...</span><br /><br />
+                        <span id="more">I've been around computers since I was a kid. My father was a software programmer and passed some of his knowledge to me. I also grew up around a lot of art. Many of my family members are good artists, whether it be in music or drawing. I feel as though their love of art transferred to me; as a kid I would always come home from school and draw pictures for hours on end. The mix of art and problem solving that web design and development bring is what makes me so passionate about it.<br /><br />
+                            I specialize in web design &amp; development, but am also well versed in print design, UX/UI design, and I can even code emails!<br /><br />
+                            Don't believe me? I encourage you to view my portfolio above, where you can check out some of my proudest work.<br /><br />
+                            <strong>Please feel free to contact me with any business inquiries, as well as any and all questions.<br /><br />
+                                You can also find me on <a aria-label="LinkedIn" href="https://www.linkedin.com/in/dylandriver/" target="_blank" rel="noopener">LinkedIn!</a></strong></span></p>
+                    <div class="d-grid">
+                        <button class="btn btn-primary btn-lg" aria-label="Read more" onclick="myFunction()" id="myBtn">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact alt" aria-label="Contact">
+        <div class="container">
+            <div class="row sec-header justify-content-center">
+                <div class="col-12 col-sm-6">
+                    <i class="icon_mail"></i>
+                    <h2>Get In Touch</h2>
+                    <div class="sep"></div>
+                </div>
+            </div>
+            <div class="con-wrap">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-11 item">
+                            <div aria-label="Contact Form" id="frmContact">
+                                <div id="mail-status"></div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6">
+                                        <div>
+                                            <label>Name</label><span class="required"> *</span>
+                                            <span id="userName-info" class="form-info"></span><br />
+                                            <input aria-label="Your Name" placeholder="Who am I hearing from?" type="text" name="userName" id="userName" class="demoInputBox form-control input-lg" required>
+                                        </div>
+                                        <div>
+                                            <label>Email</label><span class="required"> *</span>
+                                            <span id="userEmail-info" class="form-info"></span><br />
+                                            <input aria-label="Your Email" placeholder="How do I reach you?" type="text" name="userEmail" id="userEmail" class="demoInputBox form-control input-lg" required>
+                                        </div>
+                                        <div>
+                                            <input value="Email from dylandriver.net" type="hidden" name="subject" id="subject" class="demoInputBox">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div>
+                                            <label>Message</label><span class="required"> *</span>
+                                            <span id="content-info" class="form-info"></span><br />
+                                            <textarea aria-label="Message" placeholder="How can I help you?" name="content" id="content" class="demoInputBox form-control input-lg" cols="60" rows="6" required></textarea>
+                                        </div>
+                                        <div class="d-grid">
+                                            <button id="submit" name="submit" class="btnAction btn btn-primary btn-lg" aria-label="Send email" onClick="sendContact();">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="alt">
+        <div id="copyright">© 2014&#8211;<span id="displayDate"></span>&nbsp;&nbsp;|&nbsp;&nbsp;Dylan Driver</div>
+    </footer>
+    <!-- Scripts -->
+    <script src="/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
