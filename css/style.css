@@ -677,7 +677,7 @@ section.alt .sep {
 
 #frmContact h4 {
   font-family: "Josefin Sans", sans-serif;
-  margin-bottom: 2rem;
+  margin: .05rem 0 2rem 0;
 }
 
 #frmContact .col-12.col-sm-6:first-child {
