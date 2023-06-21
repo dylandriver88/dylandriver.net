@@ -641,7 +641,8 @@ section.alt .sep {
     color: #1B75BC !important;
 }
 
-.about .pos li, .contact .pos li {
+.about .pos li,
+.contact .pos li {
     margin-bottom: 0.5rem;
 }
 
@@ -676,15 +677,16 @@ section.alt .sep {
 }
 
 #frmContact h4 {
-  font-family: "Josefin Sans", sans-serif;
-  margin: .05rem 0 2rem 0;
+    font-family: "Josefin Sans", sans-serif;
+    margin: .05rem 0 2rem 0;
 }
 
 #frmContact .col-12.col-sm-6:first-child {
-  padding-right: 3rem;
+    padding-right: 3rem;
 }
 
-.contact .pos, .contact .pos a {
+.contact .pos,
+.contact .pos a {
     color: #1B75BC;
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -693,6 +695,10 @@ section.alt .sep {
     list-style: none;
     padding: 0;
     text-decoration: none;
+}
+
+.contact .pos a:hover {
+    font-weight: bold;
 }
 
 @media(min-width:992px) {
