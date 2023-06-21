@@ -621,7 +621,7 @@ section.alt .sep {
     padding: 20px 0;
 }
 
-.about .pos, .contact .pos, .contact .pos a {
+.about .pos {
     color: #1B75BC;
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -676,6 +676,16 @@ section.alt .sep {
 }
 #frmContact h4 {
   font-family: "Josefin Sans", sans-serif;
+}
+.contact .pos, .contact .pos a {
+    color: #1B75BC;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    margin: 0 0 0 1.5rem;
+    padding: 0;
 }
 
 @media(min-width:992px) {
