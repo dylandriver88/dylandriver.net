@@ -681,10 +681,6 @@ section.alt .sep {
     margin: .05rem 0 2rem 0;
 }
 
-#contact-info {
-    padding-right: 3rem;
-}
-
 .contact .pos,
 .contact .pos a {
     color: #1B75BC;
@@ -715,6 +711,10 @@ section.alt .sep {
     #menu .container {
         padding-left: 5rem;
         padding-right: 5rem;
+    }
+
+    #contact-info {
+        padding-right: 3rem;
     }
 }
 
