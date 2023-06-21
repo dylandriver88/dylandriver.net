@@ -621,7 +621,7 @@ section.alt .sep {
     padding: 20px 0;
 }
 
-.about .pos, .contact .pos {
+.about .pos, .contact .pos, .contact .pos a {
     color: #1B75BC;
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -674,7 +674,9 @@ section.alt .sep {
     color: #000000;
     padding: 60px 0;
 }
-
+#frmContact h4 {
+  font-family: "Josefin Sans", sans-serif;
+}
 
 @media(min-width:992px) {
     .contact .con-wrap {
