@@ -681,7 +681,7 @@ section.alt .sep {
     margin: .05rem 0 2rem 0;
 }
 
-#frmContact .col-12.col-sm-6:first-child {
+#contact-info {
     padding-right: 3rem;
 }
 
