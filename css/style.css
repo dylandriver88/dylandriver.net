@@ -674,9 +674,16 @@ section.alt .sep {
     color: #000000;
     padding: 60px 0;
 }
+
 #frmContact h4 {
   font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 2rem;
 }
+
+#frmContact .col-12.col-sm-6:first-child {
+  padding-right: 3rem;
+}
+
 .contact .pos, .contact .pos a {
     color: #1B75BC;
     font-family: "Lato", sans-serif;
