@@ -945,7 +945,7 @@ li>div {
 @media all and (max-width: 767px) {
     .head h1 {
         font-size: 4.75rem;
-        text-shadow: 2px 0px 0px #0E76BC;
+        /*text-shadow: 2px 0px 0px #0E76BC;*/
     }
 
     .head h2 {
