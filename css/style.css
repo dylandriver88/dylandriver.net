@@ -621,7 +621,7 @@ section.alt .sep {
     padding: 20px 0;
 }
 
-.about .pos {
+.about .pos, .contact .pos {
     color: #1B75BC;
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -641,7 +641,7 @@ section.alt .sep {
     color: #1B75BC !important;
 }
 
-.about .pos li {
+.about .pos li, .contact .pos li {
     margin-bottom: 0.5rem;
 }
 
