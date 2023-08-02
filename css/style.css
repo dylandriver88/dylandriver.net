@@ -1086,7 +1086,7 @@ li>div {
 
 /* 404 Page styles */
 #not-found {
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(to bottom right, #37318e, #262262) !important;
 }
 
@@ -1104,7 +1104,8 @@ li>div {
     text-transform: none;
     letter-spacing: -0.5px;
     font-size: 4rem;
-    margin-top: -7rem;
+    margin-top: -37rem;
+    margin-bottom: 0;
     color: #FFF;
 }
 
