@@ -904,7 +904,6 @@ li>div {
     font-size: 9rem;
     letter-spacing: -3px;
     position: relative;
-    margin-top: .5em !important;
     line-height: normal;
 }
 
@@ -1041,7 +1040,6 @@ li>div {
     padding: 0px;
     margin: 0px;
     list-style-type: none;
-    margin-top: 6rem;
 }
 
 .slide {
