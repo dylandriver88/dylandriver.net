@@ -912,12 +912,9 @@ li>div {
     position: relative;
     clear: both;
     font-family: josefin Sans;
-    font-size: 6rem;
+    font-size: 5.5rem;
     line-height: normal;
-    top: -27% !important;
-    margin-top: 0;
     font-weight: 400;
-    letter-spacing: -2px;
 }
 
 #logo-head {
@@ -947,8 +944,7 @@ li>div {
 
 @media all and (max-width: 767px) {
     .head h1 {
-        font-size: 4.75rem;
-        /*text-shadow: 2px 0px 0px #0E76BC;*/
+        font-size: 4.5rem;
     }
 
     .head h2 {
